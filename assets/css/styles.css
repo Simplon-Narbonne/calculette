@@ -1,0 +1,19 @@
+#calculette{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 24em;
+}
+#paveNumerique{
+  align-items: center;
+}
+.ligne {
+  display: flex;
+  flex-direction: row;
+}
+.ligne div{
+  padding: 2em;
+  background: grey;
+  margin: 0.2em;
+}
