@@ -32,6 +32,7 @@ body{
   background: grey;
   margin: 0.2em;
   color: #FFF;
+  cursor: pointer;
 }
 .placeZero{
   display: flex;
