@@ -1,6 +1,21 @@
-#calculette{
+body{
+  background: #d8d8d8;
+}
+#resultat{
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 6em;
+}
+#resultat div{
+  padding: 2em;
+  background: grey;
+  margin: 0.2em;
+  color: #FFF;
+}
+#calculette{
+  display: flex;
   justify-content: center;
   flex-direction: row;
   height: 24em;
@@ -16,4 +31,18 @@
   padding: 2em;
   background: grey;
   margin: 0.2em;
+  color: #FFF;
+}
+.placeZero{
+  display: flex;
+  justify-content: center;
+}
+#operation {
+  background: #66d18e !important;
+}
+#operande div{
+  padding: 2em;
+  background: grey;
+  margin: 0.2em;
+  color: #FFF;
 }
